@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "Новая папка",
+			"path": "../../Новая папка"
+		},
+		{
+			"name": "img",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "img"
+	}
+}

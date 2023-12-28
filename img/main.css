@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    position: relative;
+}
+
+.slider-image__item{
+    width: 100%;
+    display: none;
+}
+
+.slider-image__item:nth-child(1){
+    display: block;
+}
+
+.slider-button{
+    position: absolute;
+    bottom: 40%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.slider-btn {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    border: unset;
+    box-shadow: 0 0 5px black;
+    transform: scale(1);
+    transition: .4s;
+}
+
+.slider:hover .slider-btn{
+    transform: scale(1);
+}
